@@ -9,6 +9,7 @@ const TiltComponent = ({content = "", className = "tilt-component", glareColor =
             glareEnable={false}
             scale={scale}
             perspective={perspective}
+            gyroscope={true}
             glareColor={glareColor}>
                 <div className="inner-element" style={{fontSize: restProps['fontSize']}}>
                     <div>{content}</div>
