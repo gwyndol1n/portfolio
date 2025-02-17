@@ -1,0 +1,17 @@
+.tilt-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    padding: 5px
+}
+
+.inner-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    transform: translateZ(60px);
+}
