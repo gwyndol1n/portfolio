@@ -58,3 +58,7 @@ section > h2, section > h4 {
 .about-tile:hover text {
     color: var(--color-secondary)
 }
+
+.about-tile:hover p {
+    color: var(--color-secondary)
+}
