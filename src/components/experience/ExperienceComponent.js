@@ -46,19 +46,19 @@ const ExperienceComponent = () => {
                             prior positions
                         </h2>
                         <div className='about-row'>
-                            <HiCode className='about-icon' /><text>Senior Software Engineer @ <a href='https://riskonnect.com/'>Riskonnect</a></text>
+                            <HiCode className='about-icon' /><text>Senior Software Engineer @ <a href='https://riskonnect.com/' target="_blank">Riskonnect</a></text>
                         </div>
                         <div className='about-row'>
                             <text><strong>09/2020 - 09/2024</strong></text>
                         </div>
                         <div className='about-row'>
-                            <HiCode className='about-icon' /><text>Freelance Developer <a href='https://github.com/gwyndol1n'>(my Github)</a></text>
+                            <HiCode className='about-icon' /><text>Freelance Developer <a href='https://github.com/gwyndol1n' target="_blank">(my Github)</a></text>
                         </div>
                         <div className='about-row'>
                             <text><strong>06/2020 - current</strong></text>
                         </div>
                         <div className='about-row'>
-                            <HiCode className='about-icon' /><text>Software Developer @ <a href='https://www.corcentric.com/'>Vendorin (purchased by Corcentric)</a></text>
+                            <HiCode className='about-icon' /><text>Software Developer @ <a href='https://www.corcentric.com/' target="_blank">Vendorin (purchased by Corcentric)</a></text>
                         </div>
                         <div className='about-row'>
                             <text><strong>11/2016 - 08/2020</strong></text>
@@ -68,7 +68,7 @@ const ExperienceComponent = () => {
                         <FaCodePullRequest className='about-icon' />
                         <h2 className='about-header'>projects</h2>
                         <div className='about-row'>
-                            <HiCode className='about-icon' /><text><strong>Catalyst/Castellan</strong> @ <a href='https://riskonnect.com/'><strong>Riskonnect</strong></a></text>
+                            <HiCode className='about-icon' /><text><strong>Catalyst/Castellan</strong> @ <a href='https://riskonnect.com/' target="_blank"><strong>Riskonnect</strong></a></text>
                         </div>
                         <div className='about-row'>
                             <text><strong>Ruby on Rails</strong>-based risk management software, leveraging <strong>React</strong> view components with <strong>Stimulus</strong> and <strong>Hotwire</strong> connectivity</text>
