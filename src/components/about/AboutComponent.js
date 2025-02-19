@@ -1,10 +1,9 @@
 import React from 'react';
 import './AboutComponent.css';
-import { PiGlobeHemisphereEastBold, PiGraduationCapBold } from "react-icons/pi";
-import { SiRubyonrails, SiCplusplus } from "react-icons/si";
-import { DiJavascript, DiReact, DiPython, DiDatabase } from "react-icons/di";
+import myPicture from '../../assets/me.png'
+import { PiGraduationCapBold } from "react-icons/pi";
 import { TbGenderTransgender } from "react-icons/tb";
-import { RiFlowChart } from "react-icons/ri";
+
 
 const AboutComponent = () => {
     return (
@@ -13,32 +12,9 @@ const AboutComponent = () => {
             <div className='about-container'>
                 <div className='about-content'>
                     <div className='about-tiles'>
-                        <div className='about-tile' id='areas-of-expertise'>
-                            <PiGlobeHemisphereEastBold className='about-icon' />
-                            <h2 className='about-header'>
-                                areas of expertise
-                            </h2>
-                            <div className='about-row'>
-                                <RiFlowChart className='about-icon'/><text>&nbsp;Model-View-Controller Frameworks</text>
-                            </div>
-                            <div className='about-row'>
-                                <SiCplusplus className='about-icon'/><text>&nbsp;Object-Oriented Languages</text>
-                            </div>
-                            <div className='about-row'>
-                                <SiRubyonrails className='about-icon'/><text>&nbsp;Ruby on Rails</text>
-                            </div>
-                            <div className='about-row'>
-                                <DiJavascript className='about-icon'/><text>&nbsp;Javascript</text>
-                            </div>
-                            <div className='about-row'>
-                                <DiReact className='about-icon'/><text>&nbsp;ReactJS</text>
-                            </div>
-                            <div className='about-row'>
-                                <DiPython className='about-icon'/><text>&nbsp;Python</text>
-                            </div>
-                            <div className='about-row'>
-                                <DiDatabase className='about-icon'/><text>&nbsp;SQL</text>
-                            </div>
+                        <div className='about-tile' id='picture-of-me'>
+                            <img src={myPicture} alt="Me" className='about-image' />
+                            <h2 className='about-header'>Me!</h2>
                         </div>
                         <div className='about-tile' id='education'>
                             <PiGraduationCapBold className='about-icon' />

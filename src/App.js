@@ -3,6 +3,7 @@ import './App.css';
 import HeaderComponent from './components/header/HeaderComponent';
 import NavComponent from './components/nav/NavComponent';
 import AboutComponent from './components/about/AboutComponent';
+import ExperienceComponent from './components/experience/ExperienceComponent';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </header>
       <NavComponent />
       <AboutComponent />
+      <ExperienceComponent />
     </div>
   );
 }
