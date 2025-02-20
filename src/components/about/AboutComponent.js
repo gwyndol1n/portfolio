@@ -9,25 +9,25 @@ const AboutComponent = () => {
     return (
         <section id='about'>
             <h2>about me</h2>
-            <div className='about-container'>
-                <div className='about-content'>
-                    <div className='about-tiles'>
-                        <div className='about-tile' id='picture-of-me'>
-                            <img src={myPicture} alt="Me" className='about-image' />
-                            <h2 className='about-header'>Me!</h2>
+            <div className='section-container'>
+                <div className='section-content'>
+                    <div className='section-tiles'>
+                        <div className='section-tile' id='picture-of-me'>
+                            <img src={myPicture} alt="Me" className='section-image' />
+                            <h2 className='section-header'>Me!</h2>
                         </div>
-                        <div className='about-tile' id='education'>
-                            <PiGraduationCapBold className='about-icon' />
-                            <h2 className='about-header'>
+                        <div className='section-tile' id='education'>
+                            <PiGraduationCapBold className='section-icon' />
+                            <h2 className='section-header'>
                                 education
                             </h2>
                             <p><strong>Bachelor's in Science</strong>, University of Southern Mississippi</p>
                             <p><strong>Information Technology</strong> w/ Security emphasis, Computer Science minor</p>
                             <p>Graduated <strong>May 2017</strong></p>
                         </div>
-                        <div className='about-tile' id='about-me'>
-                            <TbGenderTransgender className='about-icon' />
-                            <h2 className='about-header'>
+                        <div className='section-tile' id='about-me'>
+                            <TbGenderTransgender className='section-icon' />
+                            <h2 className='section-header'>
                                more about me
                             </h2>
                             <p>I've been invested in software development nearly my entire life. The first ever "code" I wrote was a <strong>Zork-like</strong> text adventure entirely within a batch file.</p>

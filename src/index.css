@@ -26,3 +26,78 @@ html {
 ::-webkit-scrollbar{
   display: none;
 }
+
+.section-container {
+  display: grid;
+  gap: 15%;
+  place-items: center;
+}
+
+.section-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.7rem;
+}
+
+.section-tile {
+  background: var(--color-secondary);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: .6rem;
+  text-align: center;
+  transition: all 400ms ease;
+}
+
+.section-icon {
+  font-size: 1.5rem;
+  padding-right: .5rem
+}
+
+.section-tile h2, text, p {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.section-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: .5rem;
+}
+
+.section-row a {
+  color: black
+}
+
+.section-image {
+  transition: all 400ms ease;
+  max-width: 50%;
+  border-radius: 50%;
+}
+
+/* Hover behavior */
+
+.section-tile:hover {
+  background: transparent;
+  border-color: var(--color-secondary);
+  cursor: default;
+}
+
+.section-tile:hover .about-icon {
+  color: var(--color-secondary)
+}
+
+.section-tile:hover .about-header {
+  color: var(--color-secondary)
+}
+
+.section-tile:hover text {
+  color: var(--color-secondary)
+}
+
+.section-tile:hover p {
+  color: var(--color-secondary)
+}
+
+.section-tile:hover a {
+  color: var(--color-secondary);
+}

@@ -4,6 +4,7 @@ import HeaderComponent from './components/header/HeaderComponent';
 import NavComponent from './components/nav/NavComponent';
 import AboutComponent from './components/about/AboutComponent';
 import ExperienceComponent from './components/experience/ExperienceComponent';
+import ContactComponent from './components/contact/ContactComponent';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <NavComponent />
       <AboutComponent />
       <ExperienceComponent />
+      <ContactComponent />
     </div>
   );
 }
